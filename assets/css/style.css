@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-bottom: 0%;
+    width: 70% !important;
+}
+
+.row {
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+hr {
+    color: aqua !important;
+}
+
+.card {
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.card-text {
+    padding: 5%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-select {
+    margin-bottom: 15%;
+}
+
+#monedaConvertida {
+    margin-top: 15%;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.grafico{
+    margin-top: 5%;
+}
